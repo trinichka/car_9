@@ -1,0 +1,398 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.bluesky {
+	background-color: rgb(140, 200, 255);
+	height: 300px;
+	position: relative;
+}
+#kusty {
+	background-color: rgba(25, 92, 25, 0.856);
+	height: 200px;
+}
+.block1 {
+	border-radius: 100% 50px 50px 50px / 119px 0px 0px 25px;
+	background-color: magenta;
+	height: 150px;
+	width: 250px;
+	margin-left: 50px;
+	position: relative;
+	top: -150px;
+}
+
+.steklo {
+	-moz-transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+	background-color: magenta;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 270px;
+	top: -365px;
+}
+.krisha {
+	border-radius: 29% 71% 70% 30% / 19% 30% 70% 81%;
+	background-color: magenta;
+	position: relative;
+	left: 344px;
+	top: -556px;
+	height: 150px;
+	width: 150px;
+}
+.zadsteklo {
+	-moz-transform: rotate(21deg);
+	-webkit-transform: rotate(21deg);
+	-o-transform: rotate(21deg);
+	-ms-transform: rotate(21deg);
+	transform: rotate(21deg);
+	background-color: magenta;
+	position: relative;
+	left: 420px;
+	top: -646px;
+	height: 150px;
+	width: 300px;
+	display: block;
+}
+#trapezium {
+	height: 30px;
+	width: 120px;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	border-bottom: 100px solid magenta;
+	border-left: 10px solid transparent;
+	border-right: 15px solid transparent;
+	position: relative;
+	left: 710px;
+	top: -736px;
+	border-radius: 10px;
+}
+.kuzov {
+	background-color: magenta;
+	position: relative;
+	left: 299px;
+	top: -850px;
+	height: 120px;
+	width: 450px;
+}
+.wheel {
+	background: rgb(76, 76, 76); /* Old browsers */
+	background: -moz-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(
+		ellipse at center,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position: relative;
+	left: 169px;
+	top: -930px;
+	display: block;
+}
+.wheel2 {
+	background: rgb(76, 76, 76); /* Old browsers */
+	background: -moz-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* FF3.6-15 */
+	background: -webkit-radial-gradient(
+		center,
+		ellipse cover,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(
+		ellipse at center,
+		rgba(76, 76, 76, 1) 0%,
+		rgba(89, 89, 89, 1) 12%,
+		rgba(102, 102, 102, 1) 25%,
+		rgba(71, 71, 71, 1) 39%,
+		rgba(44, 44, 44, 1) 50%,
+		rgba(0, 0, 0, 1) 51%,
+		rgba(17, 17, 17, 1) 60%,
+		rgba(43, 43, 43, 1) 76%,
+		rgba(28, 28, 28, 1) 91%,
+		rgba(19, 19, 19, 1) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position: relative;
+	left: 600px;
+	top: -1080px;
+	display: block;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	-moz-transform: rotate(36deg);
+	-webkit-transform: rotate(36deg);
+	-o-transform: rotate(36deg);
+	-ms-transform: rotate(36deg);
+	transform: rotate(36deg);
+	border-bottom: 128px solid #d8edff;
+	border-left: 30px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	left: 274px;
+	top: -1400px;
+}
+.blok {
+	/* блок под окном и над дверью */
+	background-color: magenta;
+	position: relative;
+	left: 239px;
+	top: -1427px;
+	height: 30px;
+	width: 250px;
+}
+#trapezium_dver {
+	height: 0;
+	width: 160px;
+	border-bottom: 120px solid magenta;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	position: relative;
+	left: 296px;
+	top: -1695px;
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	border-radius: 10px 10px 0px 0px;
+}
+#steklo_dver {
+	border-radius: 51% 58px 9px 16px / 120px 68px 9px 16px;
+	background-color: #d8edff;
+	display: inline-block;
+	position: relative;
+	left: 316px;
+	top: -1550px;
+	height: 120px;
+	width: 150px;
+}
+#steklo_triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 120px solid #d8edff;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	-moz-transform: rotate(342deg);
+	-webkit-transform: rotate(342deg);
+	-o-transform: rotate(342deg);
+	-ms-transform: rotate(342deg);
+	transform: rotate(342deg);
+	position: relative;
+	left: 407px;
+	top: -1668px;
+}
+.zadsteklo2 {
+	width: 0;
+	height: 0;
+	-moz-transform: rotate(304deg);
+	-webkit-transform: rotate(304deg);
+	-o-transform: rotate(304deg);
+	-ms-transform: rotate(304deg);
+	transform: rotate(304deg);
+	border-bottom: 160px solid #d8edff;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	position: relative;
+	left: 500px;
+	top: -1949px;
+}
+.blokmezstekl1 {
+	/* блок между лобовым стеклом и стеклом двери */
+	background-color: magenta;
+	position: relative;
+	left: 252px;
+	top: -2010px;
+	height: 13px;
+	width: 140px;
+	-moz-transform: rotate(113deg);
+	-webkit-transform: rotate(113deg);
+	-o-transform: rotate(113deg);
+	-ms-transform: rotate(113deg);
+	transform: rotate(113deg);
+}
+#trapezium_dver2 {
+	height: 0;
+	width: 160px;
+	border-bottom: 120px solid rgb(241, 2, 241);
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	position: relative;
+	left: 296px;
+	top: -1994px;
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	border-radius: 10px 10px 0px 0px;
+}
+#blokzadsteklo {
+	position: relative;
+	left: 559px;
+	top: -2159px;
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid magenta;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	-moz-transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	transform: rotate(50deg);
+}
+#zadfara {
+	position: relative;
+	left: 757px;
+	top: -2219px;
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid red;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+#zadfara2 {
+	width: 17px; /* ширина в два раза меньше высоты, иначе получится полуовал */
+	height: 34px;
+	border: 1px solid rgba(255, 0, 0, 0);
+	border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+	background: rgba(255, 0, 0, 0.473);
+	position: relative;
+	left: 815px;
+	top: -2161px;
+	box-shadow: 1px 1px 10px maroon;
+}
+#frontfara {
+	width: 15px; /* ширина в два раза меньше высоты, иначе получится полуовал */
+	height: 30px;
+	border: 1px solid yellow;
+	border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+	background: rgb(252, 252, 95);
+	position: relative;
+	left: 50px;
+	top: -2218px;
+}
+#frontfara2 {
+	width: 15px;
+	height: 30px;
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+	background: rgba(252, 252, 95, 0.514);
+	position: relative;
+	left: 35px;
+	top: -2249px;
+	box-shadow: 1px 1px 10px yellow;
+}
+body {
+	background-color: #505050;
+}
+.ru4ka {
+	width: 30px;
+	height: 7px;
+	background-color: black;
+	border-radius: 10px;
+	position: relative;
+	left: 485px;
+	top: -2353px;
+}
